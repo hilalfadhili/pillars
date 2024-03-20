@@ -1,0 +1,112 @@
+body{
+    background-color: aqua;
+}
+.Names{
+    background-color: chartreuse;
+    text-align:left;
+    padding: 100px;
+    font-size: 40px;
+    flex-direction: column;
+    
+}
+.hawaa{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45px;
+    border: 30px 
+     
+    
+}
+.hilaal{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    margin: 20px;
+
+}
+.gridding{
+    display: grid;
+    gap: 10px;
+    background-color: gold;
+    padding: 10px;
+}
+.grid-item{
+    background-color: cornsilk;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center; 
+}
+.item1{
+    grid-column: 1 /span 2;
+    grid-row: 1;
+}
+.item2{
+    grid-column: 3 /span 1;
+    grid-row: 1 /span 2;
+}
+.item3{
+    grid-column: 1 /span 1;
+    grid-row: 2 /span 1;
+}
+.item4{
+    grid-column: 2 /span 1;
+    grid-row: 2 /span 1;
+}
+
+.item5{
+    grid-column: 1 /span 3;
+    grid-row: 3 /span 1;
+}
+.names{
+    display: grid;
+    gap: 10px;
+    background-color: gold;
+    padding: 10px;
+}
+.grid-content{
+    background-color: cornsilk;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}    
+.content1{
+    grid-column: 1 /span 2;
+    grid-row: 1;
+}
+.content2{
+    grid-column: 3 /span 1;
+    grid-row: 1 /span 2;
+}
+.content3{
+    grid-column: 1 /span 1;
+    grid-row: 2 /span 1;
+} 
+.content4{
+    grid-column: 2 /span 1;
+    grid-row: 2 /span 1;
+}
+
+.content5{
+    grid-column: 1 /span 3;
+    grid-row: 3 /span 1;
+}
+.hilaal{
+    width: 100px; ;
+    height: 100px; ;
+    background-color: chocolate;
+    transition:width 2s ,height 2s ,transform 2s;
+    
+}
+.hilaal:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(3600deg);
+    background-color: coral;
+}
+image{
+    width: 50px;
+    height: 50px;
+}
